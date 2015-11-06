@@ -9,9 +9,10 @@ var React = require('react-native');
 var {
   View,
   PropTypes,
-  StyleSheet,
-  requireNativeComponent,
+  StyleSheet
 } = React;
+
+var requireNativeComponent = require('requireNativeComponent');
 
 type Props = {
   isVisible: boolean;
